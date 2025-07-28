@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2B61D5B02E37EA47005331F4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61D5AF2E37EA47005331F4 /* ToDoItem.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2B61D59F2E37E32E005331F4 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61D5AF2E37EA47005331F4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		2B61D5962E37E32E005331F4 = {
 			isa = PBXGroup;
 			children = (
+				2B61D5AF2E37EA47005331F4 /* ToDoItem.swift */,
 				2B61D5A12E37E32E005331F4 /* TodoList */,
 				2B61D5A02E37E32E005331F4 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B61D5B02E37EA47005331F4 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
